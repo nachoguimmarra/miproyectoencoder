@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--de la clase 7-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--a continuacion, de la clase 9, insertamos el link de bootstrap para css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos.css">
+    <title>bootstrap</title>
+</head>
+<body> <!--a continuacion hago h${titulo}*6  para repetir el titulo 6 veces, pero no las voy a usar aun asi que las borro-->
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-sm-12">
+                <h1>MARMOLERIA <span> GUIMMARRA</span> </h1>
+                <h2><br>
+                Queres saber mas de Marmoles y Granitos?:</h2>
+                <a href="https://www.google.com/?hl=es" target="self"> ir a GOOGLE </a> <br>
+                <a href="https://es.wikipedia.org/wiki/M%C3%A1rmol" target="self">El Marmol</a> <br>
+                <a href="https://es.wikipedia.org/wiki/Granito" target="self">El Granito</a> <br>
+                <a href="https://es.wikipedia.org/wiki/Travertino" target="self">El Travertino</a> <br>
+            </header>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <main class="col-sm-8 col-md-6">
+                <br>
+                <br>
+                <br>
+                Quienes somos?
+                <br> 
+                Empresa familiar con mas de 80 años en el rubro de los marmoles. Tercera generacion en el negocio.
+                <br>
+                Nuestra Mision y Vision:
+                <br>
+                Dejar nuestro sello en el sector, brindando soluciones eficientes y de calidad, adaptadas al proyecto 
+                que demande de nuestro know how.
+                <br>
+                <br>
+                <p> NUESTRO LEMA: Soluciones, NO problemas</p>
+            </main>
+
+
+            <aside class="col-sm-4 col-md-6"><br>
+                <br>
+                Los MATERIALES tipicos de Marmoleria
+                <ul type="square">
+                    <li>que es el granito: ver link arriba  </li>
+                    <li>que es el marmol: ver link arriba   </li>
+                    <li>que es el travertino: ver link arriba  </li>
+                    <li>que son los materiales sinteticos: ver link arriba </li>
+                    <li>bachas de acero y de ceramica: ver link abajo </li>
+                </ul>
+                TIPS para que tengas en cuenta a la hora de presupuestar</h7>
+                <ol type="1">
+                    <li>elegi el material, segun el uso.</li>
+                    <li>elegi el color del material.</li>
+                    <li>lleva bacha?.</li> 
+                    <li>lleva agujeros para canilla?.</li>
+                    <li>medi ancho y largo de cada pieza.</li>
+                </ol>
+            </aside>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <article class="col-sm-3 col-md-6">
+                El granito, es una combinación de minerales como el cuarzo, feldespato y mica. Es la piedra natural por excelencia para el uso que se le quiera dar.
+                <ul type="square">
+                    <li>Para cocinas: recomendado</li>
+                    <li>Para baños: recomendado</li>
+                    <li>Para revestimientos: recomendado</li>
+                    <li>Para exteriores: recomendado</li>
+                </ul>
+            </article>
+
+            <article class="col-sm-3 col-md-6">
+                El Marmol es carbonato de calcio compactado naturalmente por miles de años de formacion rocosa. Es un producto fino y resistente, puede lucirse en diferentes ambientes de tu hogar y darle mucho estilo y clase.
+                <ul type="square">
+                    <li>Para cocinas: NO recomendado</li>
+                    <li>Para baños: recomendado</li>
+                    <li>Para revestimientos: recomendado</li>
+                    <li>Para exteriores: NO recomendado</li>
+                </ul>        
+            </article>
+
+            <article class="col-sm-3 col-md-6">
+                Los Materiales sintéticos (Silestone, NeoLith, Santa Margheritta) son una base cuarzo natural 
+                unificado a base de resinas Microban(TM), para la decoración de cocinas y baños a partir de un tratamiento que ofrece bellos y variados colores, texturas y unas altas prestaciones.
+                Su uso es casi como el de granito, pero tiene menos durabilidad.
+                <ul type="square">
+                    <li>Para cocinas: recomendado</li>
+                    <li>Para baños: recomendado</li>
+                    <li>Para revestimientos: recomendado</li>
+                    <li>Para exteriores: NO recomendado</li>
+                </ul>
+            </article>
+
+            <article class="col-sm-3 col-md-6">
+                <form action="enviar.php" metod="post" enctype="text/plain" >
+                <textarea name="area de texto" id="" cols="60" rows="5"
+                input type="text" placeholder="FORMULARIO DE CONSULTA: Manda nombre, telefono, email y tu pregunta" >
+                </textarea>
+                <input type="submit">
+                </form>
+            </article>
+        </div>    
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <footer class="col-sm-12">Trabajamos con bachas de acero inoxidable Johson Acero y de ceramica Fango. Ambos con alianza estratetica. Si queres conocer mas de sus trabajos, segui los enlaces.
+                <br>
+                <a href="https://johnsonacero.com/" target="self"> Johnson Acero </a> <br>
+                <a href="http://www.fangobachas.com.ar/" target="self"> Fango bachas </a> <br>
+            </footer>
+            <p>TODOS LOS DERECHOS RESERVADOS</p>
+            <div class="redes"></div> <!--copiamos el link de font awesome por enicma del enlace de estilos.css-->
+                <a href=""></a><i class="fa-brands fa-twitter"></i>
+                <a href=""></a><i class="fa-brands fa-facebook"></i>
+                <a href=""></a><i class="fa-brands fa-instagram"></i>
+        </div>
+        <a href="#"> VOLER AL INICIO </a>
+    </div>
+    <br>
+    
+
+
+
+
+<!--a continuacion, de la clase 9, veo los link de POPPER y JS separados que tambien traje desde la pag de BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</body>
+</html>
