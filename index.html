@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <link rel="stylesheet" href="estilos.css">
-    <title>bootstrap</title>
+    <title>Proyecto Final</title>
 </head>
 <body> <!--a continuacion hago h${titulo}*6  para repetir el titulo 6 veces, pero no las voy a usar aun asi que las borro-->
     <div class="container-fluid">
@@ -19,10 +19,14 @@
                 <h1>MARMOLERIA <span> GUIMMARRA</span> </h1>
                 <h2><br>
                 Queres saber mas de Marmoles y Granitos?:</h2>
-                <a href="https://www.google.com/?hl=es" target="self"> ir a GOOGLE </a> <br>
+                <br>
+                <a href="https://www.google.com/?hl=es" target="self"> ir a GOOGLE </a> 
+                <br>
+                <!--
                 <a href="https://es.wikipedia.org/wiki/M%C3%A1rmol" target="self">El Marmol</a> <br>
                 <a href="https://es.wikipedia.org/wiki/Granito" target="self">El Granito</a> <br>
                 <a href="https://es.wikipedia.org/wiki/Travertino" target="self">El Travertino</a> <br>
+                -->
             </header>
         </div>
     </div>
@@ -31,25 +35,24 @@
     <div class="container-fluid">
         <div class="row">
             <main class="col-sm-8 col-md-6">
+            <nav>
                 <br>
+                <li>
+                    <a href="pages/sobreNosotros.html">Sobre Nosotros</a>
+                    <br>
+                    <br>
+                    <a href="pages/contacto.html">Contacto</a>
+                </li>
                 <br>
-                <br>
-                Quienes somos?
-                <br> 
-                Empresa familiar con mas de 80 años en el rubro de los marmoles. Tercera generacion en el negocio.
-                <br>
-                Nuestra Mision y Vision:
-                <br>
-                Dejar nuestro sello en el sector, brindando soluciones eficientes y de calidad, adaptadas al proyecto 
-                que demande de nuestro know how.
-                <br>
-                <br>
+            </nav>
                 <p> NUESTRO LEMA: Soluciones, NO problemas</p>
             </main>
 
 
             <aside class="col-sm-4 col-md-6"><br>
                 <br>
+                <br>
+                <!--
                 Los MATERIALES tipicos de Marmoleria
                 <ul type="square">
                     <li>que es el granito: ver link arriba  </li>
@@ -58,6 +61,7 @@
                     <li>que son los materiales sinteticos: ver link arriba </li>
                     <li>bachas de acero y de ceramica: ver link abajo </li>
                 </ul>
+                -->
                 TIPS para que tengas en cuenta a la hora de presupuestar</h7>
                 <ol type="1">
                     <li>elegi el material, segun el uso.</li>
@@ -73,38 +77,48 @@
     <div class="container-fluid">
         <div class="row">
             <article class="col-sm-3 col-md-6">
-                El granito, es una combinación de minerales como el cuarzo, feldespato y mica. Es la piedra natural por excelencia para el uso que se le quiera dar.
+                <br>
+                <br>
                 <ul type="square">
+                    <li><a href="pages/granito.html">Que es el Granito</a></li>
+                    <li><a href="pages/marmol.html">Que es el Marmol</a></li>
+                    <li><a href="pages/travertino.html">Que es el Travertino</a></li>
+                    <li><a href="pages/sinteticos.html">Que son los Sinteticos</a></li>
+                </ul>
+                                <!-- ESTO LO MANDO TODO A SU .HTML
+                    <ul type="square">
                     <li>Para cocinas: recomendado</li>
                     <li>Para baños: recomendado</li>
                     <li>Para revestimientos: recomendado</li>
                     <li>Para exteriores: recomendado</li>
                 </ul>
+                -->
             </article>
 
             <article class="col-sm-3 col-md-6">
-                El Marmol es carbonato de calcio compactado naturalmente por miles de años de formacion rocosa. Es un producto fino y resistente, puede lucirse en diferentes ambientes de tu hogar y darle mucho estilo y clase.
-                <ul type="square">
-                    <li>Para cocinas: NO recomendado</li>
-                    <li>Para baños: recomendado</li>
-                    <li>Para revestimientos: recomendado</li>
-                    <li>Para exteriores: NO recomendado</li>
-                </ul>        
+                <br>
+                <br>
+                Conoce nuestros ultimos proyectos
+                <br>
+                <a href="pages/proyectos.html">click aca</a>
             </article>
 
             <article class="col-sm-3 col-md-6">
-                Los Materiales sintéticos (Silestone, NeoLith, Santa Margheritta) son una base cuarzo natural 
-                unificado a base de resinas Microban(TM), para la decoración de cocinas y baños a partir de un tratamiento que ofrece bellos y variados colores, texturas y unas altas prestaciones.
-                Su uso es casi como el de granito, pero tiene menos durabilidad.
+                <br>
+                Si ya tenes los Tips, y visitaste los materiales, lo que te proponemos ahora es que nos mandes tu consulta para que te hagamos el presupuesto a tu medida.
+                Tendran una validez de 15 días desde el momento en que te enviemos el mismo.
+                <!--
                 <ul type="square">
                     <li>Para cocinas: recomendado</li>
                     <li>Para baños: recomendado</li>
                     <li>Para revestimientos: recomendado</li>
                     <li>Para exteriores: NO recomendado</li>
                 </ul>
+                -->
             </article>
 
             <article class="col-sm-3 col-md-6">
+                <br>
                 <form action="enviar.php" metod="post" enctype="text/plain" >
                 <textarea name="area de texto" id="" cols="60" rows="5"
                 input type="text" placeholder="FORMULARIO DE CONSULTA: Manda nombre, telefono, email y tu pregunta" >

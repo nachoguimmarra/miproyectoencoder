@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 
-header{
+header {
     background-color: lightgrey;
     color: red;
     height: 250px;
@@ -19,20 +19,23 @@ header{
     background-size: cover;
     background-position: center;
 }
-header span:hover{
+
+header span:hover {
     color: blue;
     text-shadow: 0 0 5px #521a8ac7;
-    }
+}
+
 header h2 {
     text-align: center;
 }
-header a href{
+
+header a href {
     text-align: left;
 }
 
 /**********************************************/
 
-main{
+main {
     background-image: url(img/imagen5.jpg);
     background-size: center;
     background-position: center;
@@ -45,37 +48,41 @@ main{
     height: 350px;
     border: 5px solid #000
 }
-aside{
+
+aside {
     background-image: url(img/imagen4.jpg);
     background-color: lightblue;
     height: 350px;
     border: 5px solid #000;
     background-position: center;
-    font-size:larger;
+    font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-article{
+
+article {
     background-color: darkgrey;
     border: 5px solid #000;
     height: 200px;
 }
-footer{
+
+footer {
     height: 160px;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
     font-family: 'Oswald', sans-serif;
-    }
-footer p{
+}
+
+footer p {
     margin-bottom: 20px;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    }
-    
-footer a{
+}
+
+footer a {
     color: none;
     font-size: 25px;
     letter-spacing: 15px;
-    }
+}

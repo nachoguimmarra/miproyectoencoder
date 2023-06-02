@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&family=Roboto:wght@100&display=swap');
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1{
+    background-color: aqua;
+    background-image: url(../img/imagen3.jpg);
+    background-size:cover; 
+    background-position: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-shadow: blue;
+    box-sizing: border-box;
+    box-shadow: inset;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&family=Roboto:wght@100&display=swap');
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+h1{
+    background-color: aqua;
+    background-image: url(../img/backgranito1.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: none;
+    
+    
+}
